@@ -1,0 +1,32 @@
+1. Download MinGw (x86_64-win32-seh):
+    https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/
+    
+2. Unzip and add bin folder to path:
+    https://www.eclipse.org/4diac/documentation/html/installation/minGW.html
+
+3. Copy 
+    mingw32-make.exe 
+   to the same folder and rename to
+    make.exe
+    
+4. Create HelloWorld.cpp
+    // 'Hello World!' program 
+     
+    #include <iostream>
+     
+    int main()
+    {
+      std::cout << "Hello World!" << std::endl;
+      return 0;
+    }
+
+5. Compile with g++:
+    g++ HelloWorld.cpp -o hello
+    
+6. Execute hello.exe
+
+
+
+MultipleFileProject
+
+1. http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
