@@ -1,6 +1,6 @@
 clean:
-	mkdir bin
-	del .\bin\* /Q
+	mkdir -p bin
+	rm -rf bin/*
 
 build: source/main.cpp source/rectangle.cpp
 	g++ source/main.cpp source/rectangle.cpp -I include/. -o bin/ExecuteMe
