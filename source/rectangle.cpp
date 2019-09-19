@@ -8,20 +8,20 @@
  */
 
 Rectangle::Rectangle() {
-	std::cout << "Created rectangle" << std::endl;
-	width = 2;
-	height = 2;
+    std::cout << "Created rectangle" << std::endl;
+    width = 2;
+    height = 2;
 }
 
 void Rectangle::setValues(int x, int y) {
-	width = x;
-	height = y;
+    width = x;
+    height = y;
 }
 
 int Rectangle::area() {
-	return width * height;
+    return width * height;
 }
 
 Rectangle::~Rectangle() {
-	std::cout << "Destroyed rectangle" << std::endl;
+    std::cout << "Destroyed rectangle" << std::endl;
 }

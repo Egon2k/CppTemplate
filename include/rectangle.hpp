@@ -1,11 +1,11 @@
 class Rectangle {
 private:
-	int width, height;
+    int width, height;
 
 public:
-	Rectangle();
-	~Rectangle();
+    Rectangle();
+    ~Rectangle();
 
-	void setValues(int x, int y);
-	int area();
+    void setValues(int x, int y);
+    int area();
 };
