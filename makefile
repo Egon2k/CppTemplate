@@ -1,3 +1,10 @@
+help:
+	@echo Available targets:
+	@echo  - clean \(removes everything in bin folder\)
+	@echo  - build \(builds the target\)
+	@echo  - rebuild \(re-builds the target\)
+	@echo  - run \(re-builds and runs the target\)
+
 clean:
 	mkdir -p bin
 	rm -rf bin/*
