@@ -1,5 +1,5 @@
 #include <iostream>
-#include <rectangle.hpp>
+#include "rectangle.hpp"
 /*
  Classes:
  http://www.cplusplus.com/doc/tutorial/classes/
@@ -13,6 +13,10 @@ Rectangle::Rectangle() {
     height = 2;
 }
 
+Rectangle::~Rectangle() {
+    std::cout << "Destroyed rectangle with area " <<  this->area() << std::endl;
+}
+
 void Rectangle::setValues(int x, int y) {
     width = x;
     height = y;
@@ -22,6 +26,4 @@ int Rectangle::area() {
     return width * height;
 }
 
-Rectangle::~Rectangle() {
-    std::cout << "Destroyed rectangle" << std::endl;
-}
+

@@ -11,4 +11,7 @@ rebuild: source/main.cpp source/rectangle.cpp
 	
 run: source/main.cpp source/rectangle.cpp
 	make rebuild
-	./bin/ExecuteMe.exe
+	./bin/ExecuteMe
+	
+	
+	
